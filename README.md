@@ -3,12 +3,12 @@
 A simple social media platform built with HTML, Tailwind CSS, and vanilla JavaScript.
 Features
 
-📱 Responsive design using Tailwind CSS
-🔐 User authentication (login/register)
-📝 Create and view posts
-❤️ Like posts
-👤 User profiles
-📱 Mobile-friendly interface
+- 📱 Responsive design using Tailwind CSS
+- 🔐 User authentication (login/register)
+- 📝 Create and view posts
+- ❤️ Like posts
+- 👤 User profiles
+- 📱 Mobile-friendly interface
 
 Pages
 
