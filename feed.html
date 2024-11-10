@@ -37,12 +37,12 @@
         </div>
         <div class="bg-white rounded-lg shadow-md p-4 mb-6">
             <textarea id="postContent" class="w-full p-2 border rounded-lg resize-none" rows="3"
-                placeholder="What's on your mind?"></textarea>
+            placeholder="What's on your mind?"></textarea>
             <div class="mb-3">
                 <label class="block text-gray-700 text-sm mb-1" for="imageUrl">Image URL (optional)</label>
                 <input type="url" id="imageUrl"
-                    class="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-500"
-                    placeholder="https://example.com/image.jpg">
+                class="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                placeholder="https://example.com/image.jpg">
             </div>
             <div class="flex justify-between items-center">
                 <button id="createPost" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
@@ -53,13 +53,14 @@
         </div>
         <div class="bg-white rounded-lg shadow-md p-4 mb-6">
             <input type="text" id="searchInput"
-                class="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-500"
-                placeholder="Search posts..." />
+            class="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-500"
+            placeholder="Search posts..." />
         </div>
         <div class="bg-white rounded-lg shadow-md p-4 mb-4">
+            <div id="feedPosts" class="space-y-4">
+            </div>
             <div class="flex justify-between items-start">
                 <div class="flex items-center space-x-3">
-                    <!-- Profile Picture -->
                     <img src="images/france.webp" alt="Author's profile picture" class="w-10 h-10 rounded-full">
                     <div>
                         <h3 class="font-bold">norway_nr1</h3>
@@ -145,8 +146,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="feedPosts" class="space-y-4">
         </div>
     </main>
 </body>
