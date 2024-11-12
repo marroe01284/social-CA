@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+   width: auto;
+}
+
+.post-profile{
+text-align: center;
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+.profile-image{
+width: 32px;
+height: 32px;
+border-radius: 100%;
+border: 4px solid white;
+}
+.bg-split {
+    background: linear-gradient(to bottom, #4c7afa 50%, #9ce8f0 50%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
